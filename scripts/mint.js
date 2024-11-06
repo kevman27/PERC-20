@@ -10,7 +10,7 @@ async function main() {
   web3.registerPlugin(new SwisstronikPlugin(network.config.url));
 
   // Address of the deployed contract
-  const contractAddress = "0xE8e17c3D9b88bab305a6F5669ac12D26F7f3B3c3";
+  const contractAddress = "0x";
 
   // Get the signer (your account)
   const [from] = await web3.eth.getAccounts();
