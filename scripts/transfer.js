@@ -10,11 +10,11 @@ async function main() {
   web3.registerPlugin(new SwisstronikPlugin(network.config.url));
 
   // Address of the deployed contract
-  const contractAddress = "0xE8e17c3D9b88bab305a6F5669ac12D26F7f3B3c3";
+  const contractAddress = "0x";
 
   // Get the signer (your account)
   const [from] = await web3.eth.getAccounts();
-  const to = "0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1";
+  const to = "0x";
   const amount = 1 * 10 ** 18;
 
   console.log("Transferring tokens from account", from);
